@@ -1,0 +1,204 @@
+; Packaging information for gsi_sites_starter_v2
+name = "gsi_sites_starter_v2"
+description = "Installation Profile for GSI Websites"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = fpa
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+; Context
+dependencies[] = context
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = user
+; Fields
+dependencies[] = field_group
+dependencies[] = filefield_paths
+; FlexSlider
+dependencies[] = flexslider
+dependencies[] = flexslider_views_slideshow
+; Input filters
+dependencies[] = pathologic
+; Mail
+dependencies[] = htmlmail
+dependencies[] = mailsystem
+;dependencies[] = smtp
+; Media
+dependencies[] = file_entity
+dependencies[] = imce
+dependencies[] = imce_mkdir
+dependencies[] = media
+; Other
+dependencies[] = backup_migrate
+dependencies[] = browserclass
+dependencies[] = colorbox
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = file_formatters
+dependencies[] = job_scheduler
+dependencies[] = libraries
+dependencies[] = menu_attributes
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = shield
+dependencies[] = special_menu_items
+dependencies[] = strongarm
+dependencies[] = token
+; Panels
+dependencies[] = panelizer
+dependencies[] = panels
+; Path management
+dependencies[] = globalredirect
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_ui
+; Statistics
+dependencies[] = googleanalytics
+; Take Control
+dependencies[] = take_control
+; User interface
+dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+dependencies[] = views_php
+dependencies[] = views_slideshow
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; colorbox
+dependencies[] = colorbox_node
+; Features
+dependencies[] = features
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'ember'
+variables[context_block_rebuild_needed] = true
+variables[date_default_timezone] = 'Asia/Singapore'
+variables[field_bundle_settings_file__audio][extra_fields][display][file][media_small] = array (
+  'weight' => 0,
+  'visible' => false,
+)
+variables[field_bundle_settings_file__default][extra_fields][display][file][media_small] = array (
+  'weight' => 0,
+  'visible' => false,
+)
+variables[field_bundle_settings_file__image][extra_fields][display][file][media_small] = array (
+  'weight' => 0,
+  'visible' => false,
+)
+variables[field_bundle_settings_file__video][extra_fields][display][file][media_small] = array (
+  'weight' => 0,
+  'visible' => false,
+)
+variables[filter_fallback_format] = 'plain_text'
+variables[flexslider_version] = '2.2'
+variables[imce_custom_content][imce_mkdir_content] = 1
+variables[imce_custom_process][imce_mkdir_process_profile] = 1
+variables[imce_profiles][1][name] = 'User-1'
+variables[imce_profiles][1][usertab] = 1
+variables[imce_profiles][1][filesize] = 0
+variables[imce_profiles][1][quota] = 0
+variables[imce_profiles][1][tuquota] = 0
+variables[imce_profiles][1][extensions] = '*'
+variables[imce_profiles][1][dimensions] = '1200x1200'
+variables[imce_profiles][1][filenum] = 0
+variables[imce_profiles][1][directories][0][name] = '.'
+variables[imce_profiles][1][directories][0][subnav] = 1
+variables[imce_profiles][1][directories][0][browse] = 1
+variables[imce_profiles][1][directories][0][upload] = 1
+variables[imce_profiles][1][directories][0][thumb] = 1
+variables[imce_profiles][1][directories][0][delete] = 1
+variables[imce_profiles][1][directories][0][resize] = 1
+variables[imce_profiles][1][directories][0][mkdir] = 1
+variables[imce_profiles][1][directories][0][rmdir] = 1
+variables[imce_profiles][1][thumbnails][0][name] = 'Small'
+variables[imce_profiles][1][thumbnails][0][dimensions] = '90x90'
+variables[imce_profiles][1][thumbnails][0][prefix] = 'small_'
+variables[imce_profiles][1][thumbnails][0][suffix] = ''
+variables[imce_profiles][1][thumbnails][1][name] = 'Medium'
+variables[imce_profiles][1][thumbnails][1][dimensions] = '120x120'
+variables[imce_profiles][1][thumbnails][1][prefix] = 'medium_'
+variables[imce_profiles][1][thumbnails][1][suffix] = ''
+variables[imce_profiles][1][thumbnails][2][name] = 'Large'
+variables[imce_profiles][1][thumbnails][2][dimensions] = '180x180'
+variables[imce_profiles][1][thumbnails][2][prefix] = 'large_'
+variables[imce_profiles][1][thumbnails][2][suffix] = ''
+variables[imce_profiles][1][mkdirnum] = 0
+variables[imce_profiles][2][name] = 'Sample profile'
+variables[imce_profiles][2][usertab] = 1
+variables[imce_profiles][2][filesize] = 1
+variables[imce_profiles][2][quota] = 2
+variables[imce_profiles][2][tuquota] = 0
+variables[imce_profiles][2][extensions] = 'gif png jpg jpeg'
+variables[imce_profiles][2][dimensions] = '800x600'
+variables[imce_profiles][2][filenum] = 1
+variables[imce_profiles][2][directories][0][name] = 'u%uid'
+variables[imce_profiles][2][directories][0][subnav] = 0
+variables[imce_profiles][2][directories][0][browse] = 1
+variables[imce_profiles][2][directories][0][upload] = 1
+variables[imce_profiles][2][directories][0][thumb] = 1
+variables[imce_profiles][2][directories][0][delete] = 0
+variables[imce_profiles][2][directories][0][resize] = 0
+variables[imce_profiles][2][directories][0][mkdir] = 0
+variables[imce_profiles][2][directories][0][rmdir] = 0
+variables[imce_profiles][2][thumbnails][0][name] = 'Thumb'
+variables[imce_profiles][2][thumbnails][0][dimensions] = '90x90'
+variables[imce_profiles][2][thumbnails][0][prefix] = 'thumb_'
+variables[imce_profiles][2][thumbnails][0][suffix] = ''
+variables[imce_profiles][2][mkdirnum] = 2
+variables[job_scheduler_rebuild_all] = true
+variables[mail_system][default-system] = 'SmtpMailSystem'
+variables[mail_system][htmlmail] = 'HTMLMailSystem'
+variables[metatag_schema_installed] = true
+variables[node_admin_theme] = '1'
+variables[node_options_page][0] = 'status'
+variables[pathauto_blog_pattern] = 'blogs/[user:name]'
+variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_node_pattern] = '[node:title]'
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_user_pattern] = 'users/[user:name]'
+variables[path_alias_whitelist][user] = true
+variables[theme_default] = 'bartik'
+variables[user_pictures] = '1'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = 2
+

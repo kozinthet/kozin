@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rpeflexslider feature.
+ */
+
+include_once 'rpeflexslider.features.inc';
